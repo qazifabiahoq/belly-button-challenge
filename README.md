@@ -43,7 +43,8 @@ pics: Contains pictures used in the dashboard.
 index.html: Main HTML file for the dashboard.
 samples.json: JSON file containing the dataset.
 static: Folder containing:
--app.js: JavaScript file containing the code for the interactive dashboard.
+
+-  app.js: JavaScript file containing the code for the interactive dashboard.
 - .gitkeep: Empty file to ensure the static folder is tracked by Git.
 
 ## Data Source
