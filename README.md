@@ -39,9 +39,13 @@ Open the index.html file in a web browser.
 ## File Structure:
 
 Main Branch: Contains all project files.
+
 pics: Contains pictures used in the dashboard.
+
 index.html: Main HTML file for the dashboard.
+
 samples.json: JSON file containing the dataset.
+
 static: Folder containing:
 
 -  app.js: JavaScript file containing the code for the interactive dashboard.
