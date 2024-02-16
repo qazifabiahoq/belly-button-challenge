@@ -36,12 +36,22 @@ To run the project, follow these steps:
 Clone the repository or download the project files.
 Open the index.html file in a web browser.
 
+## File Structure:
+
+Main Branch: Contains all project files.
+pics: Contains pictures used in the dashboard.
+index.html: Main HTML file for the dashboard.
+samples.json: JSON file containing the dataset.
+static: Folder containing:
+-app.js: JavaScript file containing the code for the interactive dashboard.
+- .gitkeep: Empty file to ensure the static folder is tracked by Git.
+
 ## Data Source
 The data for this project is loaded from a JSON file hosted from json file called samples (find it in main)
 
 ## Credits
 
-This project is part of the Data Visualization Boot Camp assignment and uses the belly button biodiversity dataset provided by the boot camp curriculum.
+This project is part of the University Of Toronto Data Analytics Boot Camp assignment and uses the belly button biodiversity dataset provided by the boot camp curriculum.
 Find it here: https://robdunnlab.com/projects/belly-button-biodiversity/
 
 ## Dependencies
