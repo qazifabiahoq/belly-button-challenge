@@ -71,7 +71,7 @@ function updateChart(data, selectedValue) {
     }));
 
     // Sort the data by sample values in descending order
-    top10Data.sort((a, b) => b.sample_value - a.sample_value);
+    top10Data.sort((a, b) => a.sample_value - b.sample_value);
 
     const trace = {
         x: top10Data.map(d => d.sample_value),
