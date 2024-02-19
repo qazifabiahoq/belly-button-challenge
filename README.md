@@ -1,6 +1,9 @@
 # Belly Button Biodiversity Dashboard
 This project creates an interactive web dashboard for exploring the belly button biodiversity dataset. The dashboard includes a dropdown menu to select an individual, and it displays various plots and metadata for the selected individual. The project is built using JavaScript, D3.js, and Plotly.js.
 
+https://qazifabiahoq.github.io/belly-button-challenge/
+
+
 ## Features
 
 ### Dropdown Menu
@@ -63,6 +66,9 @@ Find it here: https://robdunnlab.com/projects/belly-button-biodiversity/
 
 D3.js
 Plotly.js
+
+## Git Hub Site
+A github page site was created for this project : https://qazifabiahoq.github.io/belly-button-challenge/
 
 ## Reference
 Project is done for University of Toronto Data Analytics Bootcamp
