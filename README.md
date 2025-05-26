@@ -1,75 +1,94 @@
 # Belly Button Biodiversity Dashboard
-This project creates an interactive web dashboard for exploring the belly button biodiversity dataset. The dashboard includes a dropdown menu to select an individual, and it displays various plots and metadata for the selected individual. The project is built using JavaScript, D3.js, and Plotly.js.
 
-https://qazifabiahoq.github.io/belly-button-challenge/
+---
 
+## Project Description
 
-## Features
+This project developed an interactive web dashboard to explore the belly button biodiversity dataset. The dashboard allows users to select an individual from the dataset and view detailed visualizations and metadata related to that individual’s microbial diversity. The goal was to provide an intuitive and engaging interface for exploring biological sample data.
 
-### Dropdown Menu
+---
 
-The dropdown menu allows users to select an individual from the dataset.
-The menu is dynamically populated with options based on the available individuals in the dataset.
+## Who Will Benefit and Why?
 
-### Bar Chart
-The bar chart displays the top 10 operational taxonomic units (OTUs) for the selected individual.
-Each bar represents an OTU, with the height of the bar corresponding to the sample value of the OTU.
-The bars are sorted in descending order of sample values.
+Biologists, educators, and data enthusiasts can benefit from this dashboard. It simplifies the exploration of complex microbiome data by providing clear visual summaries and metadata at the individual level. Researchers and students gain a better understanding of microbial diversity patterns without requiring advanced programming skills.
 
-### Bubble Chart
+---
 
-The bubble chart shows all OTUs present in the selected individual's sample.
-Each bubble represents an OTU, with the size of the bubble corresponding to the sample value of the OTU.
-The color of the bubble represents the OTU ID, following a color scale.
+## Dataset Description
 
-### Metadata Display
+The dataset originates from the University of Toronto Data Analytics Boot Camp and is based on the belly button biodiversity study by the Dunn Lab. It contains operational taxonomic unit (OTU) data representing bacterial populations found in human belly buttons, along with individual metadata such as age, gender, and ethnicity.
 
-Metadata for the selected individual is displayed below the charts.
-The metadata includes key-value pairs such as age, gender, and ethnicity of the individual.
+---
 
-### Gauge Chart
-The gauge chart displays the belly button washing frequency (scrubs per week) for the selected individual.
-The gauge chart provides a visual indicator of the washing frequency, with different colored segments indicating different frequency ranges.
+## How It Was Done
 
+* **Technologies Used:** The dashboard was built using JavaScript with D3.js for data handling and Plotly.js for interactive visualizations.
 
-## Getting Started
+* **User Interaction:** A dropdown menu dynamically lists individual sample IDs from the dataset, allowing users to select and view data for any participant.
 
-To run the project, follow these steps:
+* **Visualizations:**
 
-Clone the repository or download the project files.
-Open the index.html file in a web browser.
+  * **Bar Chart:** Displays the top 10 OTUs for the selected individual, sorted by abundance.
+  * **Bubble Chart:** Shows all OTUs with bubble size representing abundance and color indicating OTU ID.
+  * **Gauge Chart:** Represents the washing frequency (scrubs per week) as a colored gauge.
 
-## File Structure:
+* **Metadata Display:** Shows key demographic details for the selected individual, such as age and ethnicity.
 
-Main Branch: Contains all project files.
+* **Project Deployment:** The dashboard is hosted on GitHub Pages for easy access.
 
-pics: Contains pictures used in the dashboard.
+---
 
-index.html: Main HTML file for the dashboard.
+## Key Findings
 
-samples.json: JSON file containing the dataset.
+* **How is microbial diversity visualized?**
+  Top OTUs are shown via a bar chart, revealing which bacteria are most abundant per individual.
 
-static: Folder containing:
+* **What does the bubble chart convey?**
+  It offers a full view of all bacterial species present, showing diversity beyond just the most abundant.
 
--  app.js: JavaScript file containing the code for the interactive dashboard.
-- .gitkeep: Empty file to ensure the static folder is tracked by Git.
+* **How is individual metadata integrated?**
+  Demographic data is displayed alongside microbial data, providing context to the biological findings.
 
-## Data Source
-The data for this project is loaded from a JSON file hosted from json file called samples (find it in main)
+* **What insights does the gauge chart provide?**
+  It visually represents personal hygiene habits, specifically belly button washing frequency, linking behavior to microbial presence.
+
+---
+
+## Conclusion
+
+The dashboard effectively transforms complex biodiversity data into accessible visual stories. It allows users to explore individual microbial profiles and related metadata, enhancing understanding of human-associated microbiomes.
+
+---
+
+## Recommendations
+
+Future improvements could include adding comparative views across multiple individuals or time series data to observe changes over time. Integrating additional metadata categories could enrich biological interpretations.
+
+---
+
+## Project Files
+
+* **index.html:** Main dashboard interface
+* **app.js:** JavaScript code managing data and visualizations
+* **samples.json:** Dataset in JSON format
+* **pics:** Images used in the dashboard
+* **static:** Supporting files for the project
+
+---
+
+## Project Hosting
+
+The dashboard is available online:
+[https://qazifabiahoq.github.io/belly-button-challenge/](https://qazifabiahoq.github.io/belly-button-challenge/)
+
+---
 
 ## Credits
 
-This project is part of the University Of Toronto Data Analytics Boot Camp assignment and uses the belly button biodiversity dataset provided by the boot camp curriculum.
-Find it here: https://robdunnlab.com/projects/belly-button-biodiversity/
+This project was completed as part of the University of Toronto Data Analytics Boot Camp. The dataset is from the Dunn Lab’s belly button biodiversity research.
 
-## Dependencies
+---
 
-D3.js
-Plotly.js
+## References
 
-## Git Hub Site
-A github page site was created for this project : https://qazifabiahoq.github.io/belly-button-challenge/
-
-## Reference
-Project is done for University of Toronto Data Analytics Bootcamp
-Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/Links to an external site.
+Hulcr, J. et al. (2012). *A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable*. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
